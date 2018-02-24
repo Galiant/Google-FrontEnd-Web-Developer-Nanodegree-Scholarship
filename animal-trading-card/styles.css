@@ -1,0 +1,53 @@
+.wrapper {
+  max-width: 300px;
+  margin: 30px auto;
+  border: 1px solid #efefef;
+  padding: 0 10px;
+  box-shadow: 7px 7px 5px 0px #efefef;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+img {
+  border: 1px solid #efefef;
+  max-width: 300px;
+}
+.info {
+  border: 1px solid #f0f0f0;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+.facts {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+span {
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  padding: 5px 10px 5px 10px;
+  border: solid #000 2px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:hover {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
