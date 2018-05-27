@@ -1,28 +1,14 @@
 /*
- * Programming Quiz: Using Default Function Parameters (2-2)
+ * Programming Quiz: Convert Function into an Arrow Function (2-1)
  */
 
-// Directions:
-// Create a buildHouse() function that accepts an object as a default parameter.The object should set the following properties to these default values:
+// convert to an arrow function
+// const squares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(function (square) {
+//   return square * square;
+// });
 
-// floors = 1
-// color = 'red'
-// walls = 'brick'
-// The function should return the following if no arguments or any empty object is passed to the function.
+const squares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(
+  square => square * square
+);
 
-// Your house has 1 floor(s) with red brick walls.
-
-// your code goes here
-
-/* tests
-console.log(buildHouse()); // Your house has 1 floor(s) with red brick walls.
-console.log(buildHouse({})); // Your house has 1 floor(s) with red brick walls.
-console.log(buildHouse({floors: 3, color: 'yellow'})); // Your house has 3 floor(s) with yellow brick walls.
-*/
-function buildHouse({
-  floors = 1,
-  color = 'red',
-  walls = 'brick'
-} = {}) {
-  return `Your house has ${floors} floor(s) with ${color} ${walls} walls.`;
-}
+console.log(...squares);
